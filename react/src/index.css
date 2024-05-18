@@ -1,0 +1,115 @@
+.container {
+  position: relative;
+}
+
+button {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  font-size: 50px;
+}
+
+button:hover {
+  background-color: rgb(255, 255, 255);
+}
+
+.edit,.AI,.frnd {
+  position: absolute;
+  width: 200px;
+  height: 120px;
+  margin-left: 10px;
+}
+
+.edit {
+  background-color: aqua;
+  top: 0;
+  left: 0;
+}
+
+.edit:hover,.AI:hover,.frnd:hover {
+  border: 3px solid black;
+}
+
+/* Positioning for the first row of buttons */
+.b1 {
+  top: 100px;
+  left: 550px;
+}
+
+.b2 {
+  top: 100px;
+  left: 650px;
+}
+
+.b3 {
+  top: 100px;
+  left: 750px;
+}
+
+/* Positioning for the second row of buttons */
+.b4 {
+  top: 200px;
+  left: 550px;
+}
+
+.b5 {
+  top: 200px;
+  left: 650px;
+}
+
+.b6 {
+  top: 200px;
+  left: 750px;
+}
+
+/* Positioning for the third row of buttons */
+.b7 {
+  top: 300px;
+  left: 550px;
+}
+
+.b8 {
+  top: 300px;
+  left: 650px;
+}
+
+.b9 {
+  top: 300px;
+  left: 750px;
+}
+
+/* Positioning for the edit, AI, and frnd buttons */
+.edit {
+  top: 0;
+  left: 0;
+}
+
+.AI {
+  top: 120px;
+  left: 0;
+}
+
+.frnd {
+  top: 240px;
+  left: 0;
+  position: relative;
+}
+
+.X,.O {
+  position: absolute;
+  /* Set the desired width, height, font-size, etc. for.X and.O */
+}
+
+.X {
+  /* Set the styles for.X */
+  position: absolute;
+  top: 360px; /* Adjust the top value to position the.X button under the.frnd button */
+  left: 0;
+  /* Adjust the left value to position the.X button on the screen */
+}
+.O {
+  /* Set the styles for.O */
+  position: absolute;
+  top: 360px; /* Adjust the top value to position the.O button under the.frnd button */
+  left: 100px; /* Adjust the left value to position the.O button next to the.X button */
+}
